@@ -8,6 +8,8 @@ import { ThemedView } from '../../components/ThemedView';
 import { styles } from '../styles/ChatScreenStyles';
 import { formatBotResponse } from '../utils/formatBotResponse';
 import { markdownStyles } from '../utils/markdownStyles';
+import { formatBotResponse } from '../../utils/formatBotResponse';
+import { markdownStyles } from '../../utils/markdownStyles';
 
 interface Message {
   text: string;
