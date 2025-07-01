@@ -5,9 +5,9 @@ import Markdown from 'react-native-markdown-display';
 import ParallaxScrollView from '../../components/ParallaxScrollView';
 import { ThemedText } from '../../components/ThemedText';
 import { ThemedView } from '../../components/ThemedView';
-import { styles } from '../../styles/ChatScreenStyles';
-import { formatBotResponse } from '../../utils/formatBotResponse';
-import { markdownStyles } from '../../utils/markdownStyles';
+import { styles } from '../styles/ChatScreenStyles';
+import { formatBotResponse } from '../utils/formatBotResponse';
+import { markdownStyles } from '../utils/markdownStyles';
 
 interface Message {
   text: string;
